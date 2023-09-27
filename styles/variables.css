@@ -3,6 +3,7 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+  --padding-start: 0;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -228,4 +229,20 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+}
+ion-content.custom {
+  --background: url('/home-cover.jpg') no-repeat center/cover fixed;
+}
+
+.bg-transparent {
+  --ion-background-color: transparent;
+}
+ion-item-sliding.transparent.item-sliding-active-slide {
+  --ion-background-color: whitesmoke
+}
+ion-item.ion-no-padding {
+  --inner-padding-bottom: 0;
+  --inner-padding-end: 0;
+  --inner-padding-start: 0;
+  --inner-padding-top: 0;
 }
