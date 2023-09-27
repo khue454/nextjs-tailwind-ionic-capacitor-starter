@@ -54,7 +54,7 @@ export default function Home() {
             </IonRow>
             <IonRow>
               <IonButton
-                routerLink={'/tabs/lists'}
+                routerLink={'/confirm-password'}
                 color={'light'}
                 size={'small'}
                 shape={'round'}

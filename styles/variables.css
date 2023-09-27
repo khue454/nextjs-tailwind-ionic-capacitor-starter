@@ -234,6 +234,10 @@ ion-content.custom {
   --background: url('/home-cover.jpg') no-repeat center/cover fixed;
 }
 
+ion-content.overflow-hidden {
+  --overflow: hidden
+}
+
 .bg-transparent {
   --ion-background-color: transparent;
 }
@@ -245,4 +249,8 @@ ion-item.ion-no-padding {
   --inner-padding-end: 0;
   --inner-padding-start: 0;
   --inner-padding-top: 0;
+}
+
+ion-toolbar.ion-no-border {
+  --border-style: none
 }
